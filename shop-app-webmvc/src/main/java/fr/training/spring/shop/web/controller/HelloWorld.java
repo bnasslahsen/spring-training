@@ -9,7 +9,7 @@ public class HelloWorld {
 
 	@RequestMapping("/welcome")
 	public ModelAndView helloWorld() {
-		String message = "Hello World, Spring MVC";
+		String message = "Spring MVC";
 		return new ModelAndView("welcome", "message", message);
 	}
 }
