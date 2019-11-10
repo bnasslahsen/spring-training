@@ -1,8 +1,7 @@
 package com.bnpparibas.dojo.user.userapp.presentation.user;
 
-import org.springframework.stereotype.Component;
-
 import com.bnpparibas.dojo.user.userapp.domaine.User;
+import org.springframework.stereotype.Component;
 
 /**
  * @author Badr NASS

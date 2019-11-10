@@ -1,11 +1,12 @@
 package com.bnpparibas.dojo.user.userapp.domaine;
 
-import java.util.UUID;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
+import java.util.UUID;
 
+@Table(name = "USERS")
 @Entity
 public class User {
 
@@ -83,12 +84,9 @@ public class User {
 		} else if (!id.equals(other.id))
 			return false;
 		if (lastName == null) {
-			if (other.lastName != null)
-				return false;
-		} else if (!lastName.equals(other.lastName))
-			return false;
-		return true;
-	}
+            return other.lastName == null;
+		} else return lastName.equals(other.lastName);
+    }
 
 	@Override
 	public String toString() {
