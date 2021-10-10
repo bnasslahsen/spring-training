@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="shop-app-exposition:war">
+    <output-path>$PROJECT_DIR$/../shop-app/exposition/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>shop-app-exposition</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="shop-app-exposition-0.0.11-SNAPSHOT.war">
+      <element id="artifact" artifact-name="shop-app-exposition:war exploded" />
+    </root>
+  </artifact>
+</component>

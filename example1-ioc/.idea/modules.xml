@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/example1-ioc.iml" filepath="$PROJECT_DIR$/example1-ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../example2-aop/example2-aop.iml" filepath="$PROJECT_DIR$/../example2-aop/example2-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../example3-aop/example3-aop-en.iml" filepath="$PROJECT_DIR$/../example3-aop/example3-aop-en.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shop-app/shop-app.iml" filepath="$PROJECT_DIR$/../shop-app/shop-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shop-app/application/shop-app-application.iml" filepath="$PROJECT_DIR$/../shop-app/application/shop-app-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shop-app/domain/shop-app-domain.iml" filepath="$PROJECT_DIR$/../shop-app/domain/shop-app-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shop-app/exposition/shop-app-exposition.iml" filepath="$PROJECT_DIR$/../shop-app/exposition/shop-app-exposition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shop-app/infrastructure/shop-app-infrastructure.iml" filepath="$PROJECT_DIR$/../shop-app/infrastructure/shop-app-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shop-app-webmvc/shop-app-webmvc.iml" filepath="$PROJECT_DIR$/../shop-app-webmvc/shop-app-webmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-boot-hello/spring-boot-hello.iml" filepath="$PROJECT_DIR$/../spring-boot-hello/spring-boot-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-boot-starter/spring-boot-starter.iml" filepath="$PROJECT_DIR$/../spring-boot-starter/spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../m-spring-000-hello/spring-hello.iml" filepath="$PROJECT_DIR$/../m-spring-000-hello/spring-hello.iml" />
+    </modules>
+  </component>
+</project>

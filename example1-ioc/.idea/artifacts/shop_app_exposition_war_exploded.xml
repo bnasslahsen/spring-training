@@ -1,0 +1,107 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="shop-app-exposition:war exploded">
+    <output-path>$PROJECT_DIR$/../shop-app/exposition/target/shop-app-exposition-0.0.11-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>shop-app-exposition</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="shop-app-exposition" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="shop-app-infrastructure-0.0.11-SNAPSHOT.jar">
+            <element id="module-output" name="shop-app-infrastructure" />
+          </element>
+          <element id="archive" name="shop-app-domain-0.0.11-SNAPSHOT.jar">
+            <element id="module-output" name="shop-app-domain" />
+          </element>
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-validation:2.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:2.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.14" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:2.7.9" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.0.13.RELEASE" />
+          <element id="library" level="project" name="Maven: javax.transaction:javax.transaction-api:1.2" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:5.2.18.Final" />
+          <element id="library" level="project" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.2.Final" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.22.0-GA" />
+          <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
+          <element id="library" level="project" name="Maven: org.jboss:jandex:2.0.3.Final" />
+          <element id="library" level="project" name="Maven: org.dom4j:dom4j:2.1.1" />
+          <element id="library" level="project" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-jpa:2.0.14.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:2.0.14.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:5.0.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aspects:5.0.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.2.5" />
+          <element id="archive" name="shop-app-application-0.0.11-SNAPSHOT.jar">
+            <element id="module-output" name="shop-app-application" />
+          </element>
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:2.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.26" />
+          <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.19" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-json:2.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.8" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.8" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.8" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.8" />
+          <element id="library" level="project" name="Maven: org.hibernate.validator:hibernate-validator:6.0.16.Final" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:2.0.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" />
+          <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.3.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-actuator:2.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-actuator:2.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: io.micrometer:micrometer-core:1.0.10" />
+          <element id="library" level="project" name="Maven: org.hdrhistogram:HdrHistogram:2.1.10" />
+          <element id="library" level="project" name="Maven: org.latencyutils:LatencyUtils:2.0.3" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springdoc:springdoc-openapi-ui:1.1.6" />
+          <element id="library" level="project" name="Maven: org.springdoc:springdoc-openapi-core:1.1.6" />
+          <element id="library" level="project" name="Maven: org.springdoc:springdoc-openapi-common:1.1.6" />
+          <element id="library" level="project" name="Maven: io.swagger.core.v3:swagger-models:2.0.8" />
+          <element id="library" level="project" name="Maven: io.swagger.core.v3:swagger-annotations:2.0.8" />
+          <element id="library" level="project" name="Maven: io.swagger.core.v3:swagger-integration:2.0.8" />
+          <element id="library" level="project" name="Maven: io.github.classgraph:classgraph:4.6.32" />
+          <element id="library" level="project" name="Maven: io.swagger.core.v3:swagger-core:2.0.8" />
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.3.1" />
+          <element id="library" level="project" name="Maven: javax.activation:javax.activation-api:1.2.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.8" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.7" />
+          <element id="library" level="project" name="Maven: org.webjars:swagger-ui:3.23.0" />
+          <element id="library" level="project" name="Maven: org.webjars:webjars-locator:0.36" />
+          <element id="library" level="project" name="Maven: org.webjars:webjars-locator-core:0.35" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-compress:1.9" />
+          <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.3.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.26" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.13.RELEASE" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../shop-app/exposition/target/shop-app-exposition-0.0.11-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="shop-app-exposition/web/Web" />
+    </root>
+  </artifact>
+</component>
