@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.util.Assert;
 
 @SpringBootTest(classes = AppConfig.class)
 public class MyHelloImplTest {
@@ -16,7 +15,7 @@ public class MyHelloImplTest {
 
 	@Test
 	public void testSayHello() {
-		Assert.notNull(myHello);
+		Assertions.assertNotNull(myHello);
 		String result = myHello.sayHello("Toto");
 		Assertions.assertEquals("Hello : Toto", result);
 	}
