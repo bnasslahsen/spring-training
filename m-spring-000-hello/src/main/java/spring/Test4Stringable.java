@@ -1,9 +1,9 @@
 package spring;
 
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-
 import spring.bean.ToStringable;
 import spring.bean.UserStringable;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Test4Stringable {
 

@@ -1,8 +1,8 @@
 package spring;
 
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-
 import spring.bean.User;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Test2 {
 

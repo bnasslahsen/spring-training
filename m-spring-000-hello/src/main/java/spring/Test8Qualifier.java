@@ -1,8 +1,8 @@
 package spring;
 
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-
 import spring.qualifier.ServiceFacturation;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Test8Qualifier {
 

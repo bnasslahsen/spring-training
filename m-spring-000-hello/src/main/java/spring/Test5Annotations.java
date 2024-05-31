@@ -1,9 +1,9 @@
 package spring;
 
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-
 import spring.annotations.ServiceMachin;
 import spring.annotations.ServiceMachinImpl;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Test5Annotations {
 
