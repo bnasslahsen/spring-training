@@ -1,0 +1,6 @@
+#Monitoring endpoints
+management:
+   endpoints:
+      web:
+         exposure:
+            include: info, health

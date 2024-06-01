@@ -24,6 +24,7 @@
 		<module>infrastructure</module>
 		<module>application</module>
 		<module>exposition</module>
+		<module>shop-app-webmvc</module>
 	</modules>
 
 	<dependencies>

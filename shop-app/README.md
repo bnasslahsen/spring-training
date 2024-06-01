@@ -8,3 +8,5 @@
 docker run --name mysql-dev -e MYSQL_ROOT_PASSWORD=my-secret-pw -e MYSQL_DATABASE=formationdb -d -p 3306:3306 mysql:latest
 ```
 
+- To test the application: try http://localhost:8081/items or http://localhost:8081/addOrder
+
