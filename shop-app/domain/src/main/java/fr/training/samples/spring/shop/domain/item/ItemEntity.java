@@ -2,14 +2,13 @@ package fr.training.samples.spring.shop.domain.item;
 
 import java.util.Set;
 
-import javax.persistence.Embedded;
-import javax.persistence.Entity;
-import javax.persistence.ManyToMany;
-import javax.persistence.Table;
-import javax.validation.Valid;
-
 import fr.training.samples.spring.shop.domain.common.entity.AbstractBaseEntity;
 import fr.training.samples.spring.shop.domain.order.OrderEntity;
+import jakarta.persistence.Embedded;
+import jakarta.persistence.Entity;
+import jakarta.persistence.ManyToMany;
+import jakarta.persistence.Table;
+import jakarta.validation.Valid;
 
 /**
  * @author Badr NASS

@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://158.101.164.60:3306/formationdb
-    username: springUser
-    password: ThePassword
+    url: jdbc:mysql://localhost:3306/formationdb
+    username: root
+    password: my-secret-pw
 #Monitoring endpoints   
 management:
    endpoints:

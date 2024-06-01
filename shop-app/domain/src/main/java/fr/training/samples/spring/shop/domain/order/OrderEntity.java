@@ -2,18 +2,17 @@ package fr.training.samples.spring.shop.domain.order;
 
 import java.util.Set;
 
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
-import javax.persistence.Table;
-import javax.validation.Valid;
-
 import fr.training.samples.spring.shop.domain.common.entity.AbstractBaseEntity;
 import fr.training.samples.spring.shop.domain.customer.CustomerEntity;
 import fr.training.samples.spring.shop.domain.item.ItemEntity;
+import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinTable;
+import jakarta.persistence.ManyToMany;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
+import jakarta.validation.Valid;
 
 /**
  * @author Badr NASS

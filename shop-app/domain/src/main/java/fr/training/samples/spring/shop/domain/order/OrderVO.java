@@ -3,7 +3,7 @@ package fr.training.samples.spring.shop.domain.order;
 import java.io.Serializable;
 import java.util.List;
 
-import javax.persistence.Embeddable;
+import jakarta.persistence.Embeddable;
 
 /**
  * @author Badr NASS

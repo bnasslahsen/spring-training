@@ -2,10 +2,10 @@ package fr.training.samples.spring.shop.domain.common.entity;
 
 import java.util.UUID;
 
-import javax.persistence.Id;
-import javax.persistence.MappedSuperclass;
-import javax.persistence.Version;
-import javax.validation.constraints.NotNull;
+import jakarta.persistence.Id;
+import jakarta.persistence.MappedSuperclass;
+import jakarta.persistence.Version;
+import jakarta.validation.constraints.NotNull;
 
 /**
  * @author Badr NASS
