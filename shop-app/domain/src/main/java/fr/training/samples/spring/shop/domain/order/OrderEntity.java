@@ -33,7 +33,7 @@ public class OrderEntity extends AbstractBaseEntity {
     /**
 	 * items of type Set<ItemEntity>
 	 */
-	@ManyToMany
+	@ManyToMany(fetch = FetchType.EAGER)
 	@JoinTable(name = "ITEM_ORDERS", inverseJoinColumns = @JoinColumn(name = "ITEMS_ID", referencedColumnName = "ID"), joinColumns = @JoinColumn(name = "ORDERS_ID", referencedColumnName = "ID"))
 	private Set<ItemEntity> items;
 
